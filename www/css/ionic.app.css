@@ -3322,7 +3322,7 @@ body,
   overflow: hidden;
   margin: 0;
   padding: 0;
-  color: #000;
+  color: #9a9694;
   word-wrap: break-word;
   font-size: 14px;
   font-family: -apple-system;
@@ -3582,7 +3582,7 @@ cite {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: #000;
+  color: #9a9694;
   font-weight: 500;
   font-family: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
   line-height: 1.2; }
@@ -5641,7 +5641,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
   z-index: 2;
   display: block;
   margin: -1px;
-  padding: 10px;
+  padding: 2px;
   border-width: 1px;
   border-style: solid;
   font-size: 16px; }
@@ -5678,12 +5678,12 @@ ion-tabs.tabs-color-active-dark .tab-item {
     display: -ms-flexbox;
     display: flex;
     position: absolute;
-    top: 10px;
-    right: 20px; }
+    top: 2px;
+    right: 4px; }
   .item.item-button-right .badge {
-    right: 55px; }
+    right: 39px; }
   .item.item-divider .badge {
-    top: 5px; }
+    top: 1px; }
   .item .badge + .badge {
     margin-right: 5px; }
   .item.item-light {
@@ -5934,7 +5934,7 @@ button.item.item-complex {
 .item-radio .item-content {
   position: relative;
   z-index: 2;
-  padding: 10px 29px 10px 10px;
+  padding: 2px 2px 2px 2px;
   border: none;
   background-color: #fff; }
 
@@ -6107,24 +6107,24 @@ a.item-content {
   font-size: 28px; }
 
 .item-icon-left {
-  padding-left: 34px; }
+  padding-left: 7px; }
   .item-icon-left .icon {
-    left: 7px; }
+    left: 2px; }
 
 .item-complex.item-icon-left {
   padding-left: 0; }
   .item-complex.item-icon-left .item-content {
-    padding-left: 34px; }
+    padding-left: 7px; }
 
 .item-icon-right {
-  padding-right: 34px; }
+  padding-right: 7px; }
   .item-icon-right .icon {
-    right: 7px; }
+    right: 2px; }
 
 .item-complex.item-icon-right {
   padding-right: 0; }
   .item-complex.item-icon-right .item-content {
-    padding-right: 34px; }
+    padding-right: 7px; }
 
 .item-icon-left.item-icon-right .icon:first-child {
   right: auto; }
@@ -6139,10 +6139,10 @@ a.item-content {
   font-size: 16px; }
 
 .item-icon-left .icon-accessory {
-  left: 2px; }
+  left: 0px; }
 
 .item-icon-right .icon-accessory {
-  right: 2px; }
+  right: 0px; }
 
 /**
  * Item Button
@@ -6150,7 +6150,7 @@ a.item-content {
  * An item button is a child button inside an .item (not the entire .item)
  */
 .item-button-left {
-  padding-left: 45px; }
+  padding-left: 9px; }
 
 .item-button-left > .button,
 .item-button-left .item-content > .button {
@@ -6166,8 +6166,8 @@ a.item-content {
   -moz-align-items: center;
   align-items: center;
   position: absolute;
-  top: 5px;
-  left: 7px;
+  top: 1px;
+  left: 2px;
   min-width: 34px;
   min-height: 34px;
   font-size: 18px;
@@ -6188,7 +6188,7 @@ a.item-content {
 .item-button-right,
 a.item.item-button-right,
 button.item.item-button-right {
-  padding-right: 50px; }
+  padding-right: 10px; }
 
 .item-button-right > .button,
 .item-button-right .item-content > .button,
@@ -6206,8 +6206,8 @@ button.item.item-button-right {
   -moz-align-items: center;
   align-items: center;
   position: absolute;
-  top: 5px;
-  right: 10px;
+  top: 1px;
+  right: 2px;
   min-width: 34px;
   min-height: 34px;
   font-size: 18px;
@@ -6234,8 +6234,8 @@ button.item.item-button-right {
 .item-avatar .item-content,
 .item-avatar-left,
 .item-avatar-left .item-content {
-  padding-left: 60px;
-  min-height: 60px; }
+  padding-left: 44px;
+  min-height: 44px; }
   .item-avatar > img:first-child,
   .item-avatar .item-image,
   .item-avatar .item-content > img:first-child,
@@ -6245,8 +6245,8 @@ button.item.item-button-right {
   .item-avatar-left .item-content > img:first-child,
   .item-avatar-left .item-content .item-image {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 2px;
+    left: 2px;
     max-width: 40px;
     max-height: 40px;
     width: 100%;
@@ -6255,15 +6255,15 @@ button.item.item-button-right {
 
 .item-avatar-right,
 .item-avatar-right .item-content {
-  padding-right: 60px;
-  min-height: 60px; }
+  padding-right: 44px;
+  min-height: 44px; }
   .item-avatar-right > img:first-child,
   .item-avatar-right .item-image,
   .item-avatar-right .item-content > img:first-child,
   .item-avatar-right .item-content .item-image {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 2px;
+    right: 2px;
     max-width: 40px;
     max-height: 40px;
     width: 100%;
@@ -6272,8 +6272,8 @@ button.item.item-button-right {
 
 .item-thumbnail-left,
 .item-thumbnail-left .item-content {
-  padding-top: 5px;
-  padding-left: 100px;
+  padding-top: 1px;
+  padding-left: 92px;
   min-height: 100px; }
   .item-thumbnail-left > img:first-child,
   .item-thumbnail-left .item-image,
@@ -6295,8 +6295,8 @@ button.item.item-button-right {
 
 .item-thumbnail-right,
 .item-thumbnail-right .item-content {
-  padding-top: 5px;
-  padding-right: 100px;
+  padding-top: 1px;
+  padding-right: 92px;
   min-height: 100px; }
   .item-thumbnail-right > img:first-child,
   .item-thumbnail-right .item-image,
@@ -6324,16 +6324,16 @@ button.item.item-button-right {
 
 .item-body {
   overflow: auto;
-  padding: 10px;
+  padding: 2px;
   text-overflow: inherit;
   white-space: normal; }
   .item-body h1, .item-body h2, .item-body h3, .item-body h4, .item-body h5, .item-body h6, .item-body p {
-    margin-top: 10px;
-    margin-bottom: 10px; }
+    margin-top: 2px;
+    margin-bottom: 2px; }
 
 .item-divider {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
   min-height: 30px;
   background-color: #f5f5f5;
   color: #222;
@@ -7557,7 +7557,7 @@ textarea {
   align-items: center;
   position: relative;
   overflow: hidden;
-  padding: 6.66667px; }
+  padding: 1.33333px; }
 
 .item-input-wrapper {
   display: -webkit-box;
@@ -7590,7 +7590,7 @@ textarea {
   line-height: 18px; }
 
 .item-input-wrapper ~ .button {
-  margin-left: 6.66667px; }
+  margin-left: 1.33333px; }
 
 .input-label {
   display: table;
@@ -7970,21 +7970,21 @@ input:checked + .checkbox-icon:after {
   opacity: 1; }
 
 .item-checkbox {
-  padding-left: 48px; }
+  padding-left: 32px; }
   .item-checkbox.active {
     box-shadow: none; }
 
 .item-checkbox .checkbox {
   position: absolute;
   top: 50%;
-  right: 5px;
-  left: 5px;
+  right: 1px;
+  left: 1px;
   z-index: 3;
   margin-top: -21px; }
 
 .item-checkbox.item-checkbox-right {
-  padding-right: 48px;
-  padding-left: 10px; }
+  padding-right: 32px;
+  padding-left: 2px; }
 
 .item-checkbox-right .checkbox input,
 .item-checkbox-right .checkbox-icon {
@@ -8105,15 +8105,15 @@ input:checked + .checkbox-icon:after {
 
 .item-toggle,
 .item-toggle.item-complex .item-content {
-  padding-right: 81px; }
+  padding-right: 57px; }
 
 .item-toggle.item-complex {
   padding-right: 0; }
 
 .item-toggle .toggle {
   position: absolute;
-  top: 7px;
-  right: 10px;
+  top: 3px;
+  right: 2px;
   z-index: 3; }
 
 .toggle input:disabled + .track {
@@ -8208,7 +8208,7 @@ input:checked + .checkbox-icon:after {
 
 .item-radio .item-content {
   /* give some room to the right for the checkmark icon */
-  padding-right: 40px; }
+  padding-right: 8px; }
 
 .item-radio .radio-icon {
   /* checkmark icon will be hidden by default */
@@ -8217,7 +8217,7 @@ input:checked + .checkbox-icon:after {
   right: 0;
   z-index: 3;
   visibility: hidden;
-  padding: 8px;
+  padding: 0px;
   height: 100%;
   font-size: 24px; }
 
@@ -8416,7 +8416,7 @@ input:checked + .checkbox-icon:after {
     top: 0;
     bottom: 0;
     right: 0;
-    padding: 0 30px 0 10px;
+    padding: 0 6px 0 2px;
     max-width: 65%;
     border: none;
     background: #fff;
@@ -8434,7 +8434,7 @@ input:checked + .checkbox-icon:after {
   .item-select:after {
     position: absolute;
     top: 50%;
-    right: 10px;
+    right: 2px;
     margin-top: -3px;
     width: 0;
     height: 0;
@@ -9771,7 +9771,8 @@ input {
 .fromWhoHeading {
   padding: 1%;
   position: relative;
-  width: 100%; }
+  width: 100%;
+  color: #9a9694; }
 
 .communitySingleImg {
   padding: 1%;
