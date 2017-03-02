@@ -1,8 +1,17 @@
-Ionic App
-=====================
-
+# photo_app
+Mobile Web Application - Ionic App
 Project in the Course Mobile Web Applications at HdM.
-This app helps people to make better purchase decisions, based on feedback of there friends.
+
+Concept
+  Mobile Web Application
+  Helps users make better purchase decisions
+  Based on feedback from other users
+Problem description
+  Decision making while shopping
+Solution
+  Sharing pictures of items to buy with friends 
+  Receiving their guidance and feedback
+>>>>>>> 45c07ea0dc21f2d84b65547ff7c20cc5d6e0964c
 
 Tools, Frameworks we will use: Angular,Ionic, Sass, Docker, Node, ....
 
